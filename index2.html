@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque officiis, totam facilis adipisci accusamus eveniet laborum atque repudiandae sapiente, vitae commodi explicabo! Ipsum illum doloremque ipsam aut iure officia facere.</div>
+
+    <div class="class_main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nulla nobis quis dolorem officia repellat cumque doloremque, tempore consequuntur corporis placeat aspernatur impedit similique voluptates ducimus nisi possimus, iusto tenetur.</div>
+
+    <span>1</span>
+    <span>2</span>
+    <span>3</span> -->
+    <!-- <div id="main"></div> -->
+    <div id="main"></div>
+
+    <script>
+        let divMain = document.querySelector('#main')
+        divMain.style.width = '200px';
+        divMain.style.height = '200px';
+        divMain.style.backgroundColor = 'blue';
+
+        let divCircle = document.createElement('img');
+        divCircle.style.width = '100px';
+        divCircle.style.height = '100px';
+        divCircle.style.borderRadius = '50%';
+        divCircle.src = 'https://th.bing.com/th/id/R.a3cc269af372f76f9e93bb213674462c?rik=UiWCQH0FhYoQKg&riu=http%3a%2f%2fsrcmodels.com%2fwp-content%2fuploads%2f2018%2f02%2fIMG_2937-1300x1950.jpg&ehk=QOg08hieuEV25%2ftYfByye%2fmbLJWmTZTGUxZZSqqcSt4%3d&risl=&pid=ImgRaw&r=0'
+        divMain.appendChild(divCircle)
+        divCircle.style.marginLeft = '40px'
+        divCircle.style.marginTop = '45px'
+
+        let div2 = document.createElement('div')
+        div2.innerText = 'David Dell' ;
+        div2.style.marginLeft = '47px';
+        div2.style.marginTop = '70px'
+        div2.style.fontSize = '22px'
+        divMain.appendChild(div2)
+
+        let div3 = document.createElement('div')
+        div3.style.color = 'grey';
+        div3.sinnerText = 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using '
+        div2.appendChild(div3)
+
+
+
+
+
+
+
+
+
+
+        // let divMain = document.querySelector('#main')
+        // divMain.style.width = '200px';
+        // divMain.style.height = '400px';
+        // divMain.style.backgroundColor = 'gray';
+        // divMain.style.margin = 'auto';
+
+        // let div1 = document.createElement('div');
+        // div1.inerText = 'Hello';
+        // div1.style.color = 'white';
+        // divMain.appendChild(div1)
+
+        // let divCircle = document.createElement('img');
+        // divCircle.style.width = '100px';
+        // divCircle.style.height = '100px'
+        // divCircle.style.borderRadius = '50%'
+        // divCircle.src = 'https://th.bing.com/th/id/OIP._FHQSwhp33889S46nwvNuwHaHa?pid=ImgDet&rs=1'
+        // div1.appendChild(divCircle)
+// let div = document.getElementById('main')
+// div.style.color='red'
+
+// let divClass = document.querySelector('.class_main');
+// divClass.style.color = 'blue'
+
+// let span = document.querySelectorAll('span');
+// span.style.fontSize = '50px'
+    </script>
+</body>
+</html>
